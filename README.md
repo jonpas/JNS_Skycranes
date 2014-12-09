@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="picture_here" />
+  <img src="https://raw.githubusercontent.com/jonpas/A3_JNS_Skycranes/master/.dev/images/jns_skycranes.jpg" />
 </p>
 
 ---
@@ -11,8 +11,8 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the B
 **BI Forums:** TBA
 
 **Download:** 
-  [GitHub](https://github.com/jonpas/A3_JNS_Skycranes/releases) 
-  [Armaholic](TBA)
+  [GitHub](https://github.com/jonpas/A3_JNS_Skycranes/releases)  
+  [Armaholic](TBA)  
 
 ## Features
 
