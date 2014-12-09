@@ -1,4 +1,4 @@
-JNS Skycranes - Arma 3
+JNS Skycranes - Arma 3 Mod
 ================
 <p align="center">
   <img src="https://raw.githubusercontent.com/jonpas/A3_JNS_Skycranes/master/.dev/images/jns_skycranes.jpg" />
@@ -15,7 +15,7 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the B
 
 **Download:**
 *   [GitHub](https://github.com/jonpas/A3_JNS_Skycranes/releases)
-*   [Armaholic]()TBA
+*   [Armaholic](http://www.armaholic.com/page.php?id=27583)
 
 ## Features
 
