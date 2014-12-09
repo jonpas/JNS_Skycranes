@@ -1,6 +1,6 @@
 ﻿Credits & Thanks
 ================
-If you contributed, but are not listed here, contact me: jonpas33@gmail.com
+If you contributed, but are not listed here, contact me: jonpas33@gmail.com  
 Feel free to add yourself to this when creating a pull request!
 
 **Contributors:**
