@@ -8,11 +8,12 @@
 
 A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the BLUFOR side.
 
-**BI Forums:** TBA
+**Links:**
+*   [BI Forums]()TBA
 
-**Download:** 
-  [GitHub](https://github.com/jonpas/A3_JNS_Skycranes/releases)  
-  [Armaholic](TBA)  
+**Download:**
+*   [GitHub](https://github.com/jonpas/A3_JNS_Skycranes/releases)
+*   [Armaholic]()TBA
 
 ## Features
 
