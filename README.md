@@ -4,15 +4,15 @@
 
 ---
 
-[![](https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat-square)](https://github.com/jonpas/A3_JNS_Skycranes/releases) [![](https://img.shields.io/badge/License-APL--SA-red.svg?style=flat-square)](https://github.com/jonpas/A3_JNS_Skycranes/LICENSE.md) [![](https://img.shields.io/github/issues/jonpas/A3_JNS_Skycranes.svg?style=flat-square)](https://github.com/jonpas/A3_JNS_Skycranes/issues)
+[![](https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat-square)](https://github.com/jonpas/A3_JNS_Skycranes/releases) [![](https://img.shields.io/badge/License-APL--SA-red.svg?style=flat-square)](https://github.com/jonpas/A3_JNS_Skycranes/blob/master/LICENSE.md) [![](https://img.shields.io/github/issues/jonpas/A3_JNS_Skycranes.svg?style=flat-square)](https://github.com/jonpas/A3_JNS_Skycranes/issues)
 
 A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the BLUFOR side.
 
 **BI Forums:** TBA
 
 **Download:** 
-*   [GitHub](https://github.com/jonpas/A3_JNS_Skycranes/releases) 
-*   [Armaholic](TBA)
+  [GitHub](https://github.com/jonpas/A3_JNS_Skycranes/releases) 
+  [Armaholic](TBA)
 
 ## Features
 
@@ -26,4 +26,4 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the B
 ## Contributing
 
 Looking for textures to add, make a pull request, PM or Email me if you would like them included!
-[Contributors List](https://github.com/jonpas/A3_JNS_Skycranes/AUTHORS.md)
+[Contributors List](https://github.com/jonpas/A3_JNS_Skycranes/blob/master/AUTHORS.md)
