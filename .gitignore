@@ -1,1 +1,7 @@
-*.db
+Thumbs.db
+enthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+._*
+texHeaders.bin
+addons

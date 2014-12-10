@@ -21,9 +21,10 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the B
 *   Modular (helicopters and pods in separate PBOs)
 *   Separate sub-menu for helicopters and pods, keeps the menus clean
 *   Separate files for adding different texture sets
+*   Should have no issues with future Arma 3 updates, as config is inherited from the vanilla assets
 *   Open-source - contribute on GitHub!
 
 ## Contributing
 
-Looking for textures to add, make a pull request, PM or Email me if you would like them included!  
+Looking for textures to add, please make a pull request, PM or Email me if you would like them included!  
 [Credits & Thanks](https://github.com/jonpas/A3_JNS_Skycranes/blob/master/AUTHORS.md)
