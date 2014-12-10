@@ -10,9 +10,9 @@ JNS Skycranes - Arma 3 Mod
 
 A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the BLUFOR side.
 
-**BI Forums:** http://forums.bistudio.com/showthread.php?186479-JNS-Skycranes-%28NATO-Taru-Helicopters%29
+**[BI Forums](http://forums.bistudio.com/showthread.php?186479-JNS-Skycranes-%28NATO-Taru-Helicopters%29)**
 
-**Download Latest:** https://github.com/jonpas/A3_JNS_Skycranes/releases
+**[Download Latest](https://github.com/jonpas/A3_JNS_Skycranes/releases)**
 
 ## Features
 
