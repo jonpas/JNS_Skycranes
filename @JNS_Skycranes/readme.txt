@@ -9,7 +9,11 @@ Features
 - Modular (helicopters and pods in separate PBOs)
 - Separate sub-menu for helicopters and pods, keeps the menus clean
 - Separate files for adding different texture sets
+- Should have no issues with future Arma 3 updates, as config is inherited from the vanilla assets
 - Open-source - contribute on GitHub!
+
+Compatibility:
+- XENO - Taru Pod Mod
 
 
 Installation (adopted from Armaholic)
@@ -40,27 +44,12 @@ Helicopters are located under BLUFOR and Empty: NATO -> Air (Skycranes)
 Pods are located under Empty: Supports (Skycrane Pods)
 
 
-Credits & Thanks
-----------------
-
-A list of the contributors can be found here:
-https://github.com/jonpas/A3_JNS_Skycranes/blob/master/AUTHORS.md
-
-
-Changelog
----------
-
-The changelog all versions can be found here:
-https://github.com/jonpas/A3_JNS_Skycranes/blob/master/CHANGELOG.txt
-
-
 Links
 -----
+Credits & Thanks: https://github.com/jonpas/A3_JNS_Skycranes/blob/master/AUTHORS.md
+
+Changelog: https://github.com/jonpas/A3_JNS_Skycranes/blob/master/CHANGELOG.txt
 
 GitHub Repository:  https://github.com/jonpas/A3_JNS_Skycranes
 
-
-License
--------
-
-Arma Public Share Alike: https://github.com/jonpas/A3_JNS_Skycranes/blob/master/LICENSE.md
+License: https://github.com/jonpas/A3_JNS_Skycranes/blob/master/LICENSE.md

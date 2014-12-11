@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-	Base Classnames:
+  Base Classnames:
     JNS_Skycrane
     JNS_Skycrane_Ammo
     JNS_Skycrane_Bench

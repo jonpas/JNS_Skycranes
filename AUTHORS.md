@@ -7,5 +7,6 @@ Feel free to add yourself to this when creating a pull request!
 *   Jonpas - Base Config, Lead `jonpas33@gmail.com`
 
 **Thanks To:**
-*   Bohemia Interactive Studios - Arma 3
+*   Bohemia Interactive - Arma 3
 *   David Andersen - Being supportive, teaching me basics and all-around help
+*   NorX_Aengell - Compatibility with "XENO - Taru Pod Mod"

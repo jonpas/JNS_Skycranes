@@ -24,6 +24,10 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to the B
 *   Should have no issues with future Arma 3 updates, as config is inherited from the vanilla assets
 *   Open-source - contribute on GitHub!
 
+**Compatibility:**
+
+*   [XENO - Taru Pod Mod](http://forums.bistudio.com/showthread.php?186272-XENO-Taru-Pod-Mod)
+
 ## Contributing
 
 Looking for textures to add, please make a pull request, PM or Email me if you would like them included!  
