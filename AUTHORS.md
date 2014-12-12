@@ -4,7 +4,7 @@ If you contributed, but are not listed here, contact me: jonpas33@gmail.com
 Feel free to add yourself to this when creating a pull request!
 
 **Contributors:**
-*   Jonpas - Base Config, Lead `jonpas33@gmail.com`
+*   Jonpas - Base Config, Lead - `jonpas33@gmail.com`
 
 **Thanks To:**
 *   Bohemia Interactive - Arma 3
