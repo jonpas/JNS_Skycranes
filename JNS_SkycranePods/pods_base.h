@@ -1,5 +1,5 @@
 class Land_Pod_Heli_Transport_04_ammo_F {}; // Taru Ammo Pod
-class JNS_SkycranePod_Ammo : Land_Pod_Heli_Transport_04_ammo_F {
+class JNS_SkycranePod_Ammo: Land_Pod_Heli_Transport_04_ammo_F {
   #include "config_pods.h"
   author = "Jonpas";
   displayName = "Skycrane Ammo Pod";
@@ -9,7 +9,7 @@ class JNS_SkycranePod_Ammo : Land_Pod_Heli_Transport_04_ammo_F {
 };
 
 class Land_Pod_Heli_Transport_04_bench_F {}; // Taru Bench Pod
-class JNS_SkycranePod_Bench : Land_Pod_Heli_Transport_04_bench_F {
+class JNS_SkycranePod_Bench: Land_Pod_Heli_Transport_04_bench_F {
   #include "config_pods.h"
   author = "Jonpas";
   displayName = "Skycrane Bench Pod";
@@ -18,7 +18,7 @@ class JNS_SkycranePod_Bench : Land_Pod_Heli_Transport_04_bench_F {
 };
 
 class Land_Pod_Heli_Transport_04_box_F {}; // Taru Cargo Pod
-class JNS_SkycranePod_Cargo : Land_Pod_Heli_Transport_04_box_F {
+class JNS_SkycranePod_Cargo: Land_Pod_Heli_Transport_04_box_F {
   #include "config_pods.h"
   author = "Jonpas";
   displayName = "Skycrane Cargo Pod";
@@ -28,7 +28,7 @@ class JNS_SkycranePod_Cargo : Land_Pod_Heli_Transport_04_box_F {
 };
 
 class Land_Pod_Heli_Transport_04_covered_F {}; // Taru Transport Pod
-class JNS_SkycranePod_Transport : Land_Pod_Heli_Transport_04_covered_F {
+class JNS_SkycranePod_Transport: Land_Pod_Heli_Transport_04_covered_F {
   #include "config_pods.h"
   author = "Jonpas";
   displayName = "Skycrane Transport Pod";
@@ -38,7 +38,7 @@ class JNS_SkycranePod_Transport : Land_Pod_Heli_Transport_04_covered_F {
 };
 
 class Land_Pod_Heli_Transport_04_fuel_F {}; // Taru Fuel Pod
-class JNS_SkycranePod_Fuel : Land_Pod_Heli_Transport_04_fuel_F {
+class JNS_SkycranePod_Fuel: Land_Pod_Heli_Transport_04_fuel_F {
   #include "config_pods.h"
   author = "Jonpas";
   displayName = "Skycrane Fuel Pod";
@@ -47,7 +47,7 @@ class JNS_SkycranePod_Fuel : Land_Pod_Heli_Transport_04_fuel_F {
 };
 
 class Land_Pod_Heli_Transport_04_medevac_F {}; // Taru Medical Pod
-class JNS_SkycranePod_Medical : Land_Pod_Heli_Transport_04_medevac_F {
+class JNS_SkycranePod_Medical: Land_Pod_Heli_Transport_04_medevac_F {
   #include "config_pods.h"
   author = "Jonpas";
   displayName = "Skycrane Medical Pod";
@@ -57,7 +57,7 @@ class JNS_SkycranePod_Medical : Land_Pod_Heli_Transport_04_medevac_F {
 };
 
 class Land_Pod_Heli_Transport_04_repair_F {}; // Taru Repair Pod
-class JNS_SkycranePod_Repair : Land_Pod_Heli_Transport_04_repair_F {
+class JNS_SkycranePod_Repair: Land_Pod_Heli_Transport_04_repair_F {
   #include "config_pods.h"
   author = "Jonpas";
   displayName = "Skycrane Repair Pod";
