@@ -26,14 +26,14 @@ class CfgPatches {
 
 #define MACRO_BLACK \
   scope = public; \
-  vehicleClass = JNS_Skycranes_Black;
+  vehicleClass = JNS_Skycranes_Black; \
+  author = "Jonpas";
 
 
 class CfgVehicles {
   class JNS_Skycrane_Pod_Ammo_BLU;
   class JNS_Skycrane_Pod_Ammo_BLU_Black: JNS_Skycrane_Pod_Ammo_BLU {
     MACRO_BLACK
-    author = "Jonpas";
     displayName = "Skycrane Ammo Pod (Black)";
     hiddenSelections[] = {"Camo_1", "Camo_2"};
     hiddenSelectionsTextures[] = {
@@ -45,7 +45,6 @@ class CfgVehicles {
   class JNS_Skycrane_Pod_Bench_BLU;
   class JNS_Skycrane_Pod_Bench_BLU_Black: JNS_Skycrane_Pod_Bench_BLU {
     MACRO_BLACK
-    author = "Jonpas";
     displayName = "Skycrane Bench Pod (Black)";
     hiddenSelections[] = {"Camo_1"};
     hiddenSelectionsTextures[] = {
@@ -56,7 +55,6 @@ class CfgVehicles {
   class JNS_Skycrane_Pod_Cargo_BLU;
   class JNS_Skycrane_Pod_Cargo_BLU_Black: JNS_Skycrane_Pod_Cargo_BLU {
     MACRO_BLACK
-    author = "Jonpas";
     displayName = "Skycrane Cargo Pod (Black)";
     hiddenSelections[] = {"Camo_1", "Camo_2"};
     hiddenSelectionsTextures[] = {
@@ -68,7 +66,6 @@ class CfgVehicles {
   class JNS_Skycrane_Pod_Transport_BLU;
   class JNS_Skycrane_Pod_Transport_BLU_Black: JNS_Skycrane_Pod_Transport_BLU {
     MACRO_BLACK
-    author = "Jonpas";
     displayName = "Skycrane Transport Pod (Black)";
     hiddenSelections[] = {"Camo_1", "Camo_2"};
     hiddenSelectionsTextures[] = {
@@ -80,7 +77,6 @@ class CfgVehicles {
   class JNS_Skycrane_Pod_Fuel_BLU;
   class JNS_Skycrane_Pod_Fuel_BLU_Black: JNS_Skycrane_Pod_Fuel_BLU {
     MACRO_BLACK
-    author = "Jonpas";
     displayName = "Skycrane Fuel Pod (Black)";
     hiddenSelections[] = {"Camo_1"};
     hiddenSelectionsTextures[] = {
@@ -91,7 +87,6 @@ class CfgVehicles {
   class JNS_Skycrane_Pod_Medical_BLU;
   class JNS_Skycrane_Pod_Medical_BLU_Black: JNS_Skycrane_Pod_Medical_BLU {
     MACRO_BLACK
-    author = "Jonpas";
     displayName = "Skycrane Medical Pod (Black)";
     hiddenSelections[] = {"Camo_1", "Camo_2"};
     hiddenSelectionsTextures[] = {
@@ -103,7 +98,6 @@ class CfgVehicles {
   class JNS_Skycrane_Pod_Repair_BLU;
   class JNS_Skycrane_Pod_Repair_BLU_Black: JNS_Skycrane_Pod_Repair_BLU {
     MACRO_BLACK
-    author = "Jonpas";
     displayName = "Skycrane Repair Pod (Black)";
     hiddenSelections[] = {"Camo_1", "Camo_2"};
     hiddenSelectionsTextures[] = {
