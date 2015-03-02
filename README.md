@@ -29,5 +29,4 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to diffe
 
 ## Contributing
 
-Looking for textures to add, please make a pull request, PM or Email me if you would like them included!  
-[Credits & Thanks](https://github.com/jonpas/A3_JNS_Skycranes/blob/master/AUTHORS.md)
+Looking for textures to add, please make a pull request or PM (BI Forums, Armaholic) me if you would like them included!  
