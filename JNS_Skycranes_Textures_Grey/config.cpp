@@ -4,9 +4,9 @@ class CfgPatches {
     weapons[] = {};
     requiredVersion = 0.1;
     requiredAddons[] = {JNS_Skycranes_Core};
-    version = "1.1.0";
-    versionStr = "1.1.0";
-    versionAr[] = {1,1,0};
+    version = "2.0.0";
+    versionStr = "2.0.0";
+    versionAr[] = {2,0,0};
     author[] = {"Takelmeifter", "Jonpas"};
     authorUrl = "https://github.com/jonpas";
   };

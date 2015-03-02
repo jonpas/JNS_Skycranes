@@ -36,10 +36,11 @@ Changelog:
 # v1.0.0
 - Initial release
 
-# v1.1.0
+# v2.0.0
 - Complete rewrite
   - Allows complete modularity
   - Easier updating and texture adding
 - Added: AAF faction variants (#7)
+- Added: Grey Texture to NATO and AAF (#6)
 - Changed: Corrected class inheritance (#5)
 - Fixed: Key conflict (#10)

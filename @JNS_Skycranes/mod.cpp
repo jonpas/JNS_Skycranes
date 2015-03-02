@@ -1,4 +1,4 @@
-name = "JNS Skycranes 1.1.0";
+name = "JNS Skycranes 2.0.0";
 picture = "jns_skycranes_logo.paa";
 actionName = "GitHub";
 action = "https://github.com/jonpas/A3_JNS_Skycranes";
