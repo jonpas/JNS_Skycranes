@@ -1,14 +1,13 @@
-JNS Skycranes (NATO Taru Helicopters) - Arma 3
-===============================================
+JNS Skycranes (Taru Helicopters in different factions) - Arma 3
+===============================================================
 
 Features
 --------
 
-- Mi-290 Taru and its variants on BLUFOR side (CH-54 Skycrane)
-- Taru Pods on BLUFOR side (Skycrane Pods)
-- Modular (helicopters and pods in separate PBOs)
-- Separate sub-menu for helicopters and pods, keeps the menus clean
-- Separate files for adding different texture sets
+- Mi-290 Taru and its variants in different factions (CH-54 Skycrane)
+- Taru Pods in different factions (Skycrane Pods)
+- Modular (helicopters, pods and textures all in separate PBOs)
+- Separate sub-menu in Editor and Zeus to keep it clean
 - Should have no issues with future Arma 3 updates, as config is inherited from the vanilla assets
 - Open-source - contribute on GitHub!
 
@@ -40,8 +39,8 @@ The .bikey in Keys folder should only be placed inside the "Arma 3/keys" folder 
 Usage
 -----
 
-Helicopters are located under BLUFOR and Empty: NATO -> Air (Skycranes)
-Pods are located under Empty: Supports (Skycrane Pods)
+Helicopters and Pods are located under <Faction> and Empty: NATO -> Skycranes <Color>
+Where <Faction> is the desired faction and <Color> is the desired texture (you need the PBOs of it)
 
 
 Links
