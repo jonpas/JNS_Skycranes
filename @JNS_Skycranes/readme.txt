@@ -18,7 +18,8 @@ Compatibility:
 
 Authors:
 ========
-- Jonpas
+- Jonpas (Config)
+- Takelmeifter (Green, Grey Textures)
 
 
 Thanks:
