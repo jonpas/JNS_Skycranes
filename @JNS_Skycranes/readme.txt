@@ -41,6 +41,6 @@ Changelog:
   - Allows better modularity
   - Easier updating and texture adding
 - Added: AAF faction variants (#7)
-- Added: Grey Texture to NATO and AAF (#6)
+- Added: Green and Grey Textures to NATO and AAF (#6)
 - Changed: Corrected class inheritance (#5)
 - Fixed: Key conflict (#10)
