@@ -1,6 +1,7 @@
 class CfgPatches {
   class JNS_Skycranes_BLU_Black {
     units[] = {
+      // Helicopters
       "JNS_Skycrane_BLU_Black",
       "JNS_Skycrane_Ammo_BLU_Black",
       "JNS_Skycrane_Bench_BLU_Black",
@@ -8,7 +9,15 @@ class CfgPatches {
       "JNS_Skycrane_Transport_BLU_Black",
       "JNS_Skycrane_Fuel_BLU_Black",
       "JNS_Skycrane_Medical_BLU_Black",
-      "JNS_Skycrane_Repair_BLU_Black"
+      "JNS_Skycrane_Repair_BLU_Black",
+      // Pods
+      "JNS_Skycrane_Pod_Ammo_BLU_Black",
+      "JNS_Skycrane_Pod_Bench_BLU_Black",
+      "JNS_Skycrane_Pod_Cargo_BLU_Black",
+      "JNS_Skycrane_Pod_Transport_BLU_Black",
+      "JNS_Skycrane_Pod_Fuel_BLU_Black",
+      "JNS_Skycrane_Pod_Medical_BLU_Black",
+      "JNS_Skycrane_Pod_Repair_BLU_Black"
     };
     weapons[] = {};
     requiredVersion = 0.1;
@@ -33,6 +42,7 @@ class CfgPatches {
 
 
 class CfgVehicles {
+// Helicopters
   class JNS_Skycrane_BLU;
   class JNS_Skycrane_BLU_Black: JNS_Skycrane_BLU {
     MACRO_BLACK
@@ -128,6 +138,82 @@ class CfgVehicles {
     hiddenSelectionsTextures[] = {
       "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_co.paa",
       "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_co.paa",
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
+    };
+  };
+
+// Pods
+  class JNS_Skycrane_Pod_Ammo_BLU;
+  class JNS_Skycrane_Pod_Ammo_BLU_Black: JNS_Skycrane_Pod_Ammo_BLU {
+    MACRO_BLACK
+    displayName = "Skycrane Ammo Pod (Black)";
+    hiddenSelections[] = {"Camo_1", "Camo_2"};
+    hiddenSelectionsTextures[] = {
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
+    };
+  };
+
+  class JNS_Skycrane_Pod_Bench_BLU;
+  class JNS_Skycrane_Pod_Bench_BLU_Black: JNS_Skycrane_Pod_Bench_BLU {
+    MACRO_BLACK
+    displayName = "Skycrane Bench Pod (Black)";
+    hiddenSelections[] = {"Camo_1"};
+    hiddenSelectionsTextures[] = {
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_bench_black_CO.paa"
+    };
+  };
+
+  class JNS_Skycrane_Pod_Cargo_BLU;
+  class JNS_Skycrane_Pod_Cargo_BLU_Black: JNS_Skycrane_Pod_Cargo_BLU {
+    MACRO_BLACK
+    displayName = "Skycrane Cargo Pod (Black)";
+    hiddenSelections[] = {"Camo_1", "Camo_2"};
+    hiddenSelectionsTextures[] = {
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
+    };
+  };
+
+  class JNS_Skycrane_Pod_Transport_BLU;
+  class JNS_Skycrane_Pod_Transport_BLU_Black: JNS_Skycrane_Pod_Transport_BLU {
+    MACRO_BLACK
+    displayName = "Skycrane Transport Pod (Black)";
+    hiddenSelections[] = {"Camo_1", "Camo_2"};
+    hiddenSelectionsTextures[] = {
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
+    };
+  };
+
+  class JNS_Skycrane_Pod_Fuel_BLU;
+  class JNS_Skycrane_Pod_Fuel_BLU_Black: JNS_Skycrane_Pod_Fuel_BLU {
+    MACRO_BLACK
+    displayName = "Skycrane Fuel Pod (Black)";
+    hiddenSelections[] = {"Camo_1"};
+    hiddenSelectionsTextures[] = {
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_fuel_black_CO.paa"
+    };
+  };
+
+  class JNS_Skycrane_Pod_Medical_BLU;
+  class JNS_Skycrane_Pod_Medical_BLU_Black: JNS_Skycrane_Pod_Medical_BLU {
+    MACRO_BLACK
+    displayName = "Skycrane Medical Pod (Black)";
+    hiddenSelections[] = {"Camo_1", "Camo_2"};
+    hiddenSelectionsTextures[] = {
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
+      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
+    };
+  };
+
+  class JNS_Skycrane_Pod_Repair_BLU;
+  class JNS_Skycrane_Pod_Repair_BLU_Black: JNS_Skycrane_Pod_Repair_BLU {
+    MACRO_BLACK
+    displayName = "Skycrane Repair Pod (Black)";
+    hiddenSelections[] = {"Camo_1", "Camo_2"};
+    hiddenSelectionsTextures[] = {
       "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
       "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
     };
