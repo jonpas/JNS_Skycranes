@@ -75,7 +75,7 @@ class CfgVehicles {
     hiddenSelectionsTextures[] = {
       "\JNS_Skycranes_Textures_Grey\textures\base_01_co.paa",
       "\JNS_Skycranes_Textures_Grey\textures\base_02_co.paa",
-      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_bench_black_CO.paa"
+      "\JNS_Skycranes_Textures_Grey\textures\pod_bench_co.paa"
     };
   };
 
@@ -113,7 +113,7 @@ class CfgVehicles {
     hiddenSelectionsTextures[] = {
       "\JNS_Skycranes_Textures_Grey\textures\base_01_co.paa",
       "\JNS_Skycranes_Textures_Grey\textures\base_02_co.paa",
-      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_fuel_black_CO.paa"
+      "\JNS_Skycranes_Textures_Grey\textures\pod_fuel_co.paa"
     };
   };
 
@@ -161,7 +161,7 @@ class CfgVehicles {
     displayName = "Skycrane Bench Pod (Grey)";
     hiddenSelections[] = {"Camo_1"};
     hiddenSelectionsTextures[] = {
-      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_bench_black_CO.paa"
+      "\JNS_Skycranes_Textures_Grey\textures\pod_bench_co.paa"
     };
   };
 
@@ -193,7 +193,7 @@ class CfgVehicles {
     displayName = "Skycrane Fuel Pod (Grey)";
     hiddenSelections[] = {"Camo_1"};
     hiddenSelectionsTextures[] = {
-      "\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_fuel_black_CO.paa"
+      "\JNS_Skycranes_Textures_Grey\textures\pod_fuel_co.paa"
     };
   };
 
