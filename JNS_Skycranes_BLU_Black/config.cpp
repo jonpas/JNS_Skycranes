@@ -38,7 +38,7 @@ class CfgPatches {
 #define MACRO_CONFIG \
   scope = public; \
   vehicleClass = JNS_Skycranes_Black; \
-  author = "Jonpas";
+  author = "Bohemia Interactive";
 
 
 class CfgVehicles {

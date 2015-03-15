@@ -78,9 +78,11 @@ class CfgVehicles {
   class O_Heli_Transport_04_box_F; // Mi-290 Taru (Cargo)
   class JNS_Skycrane_Cargo_BLU: O_Heli_Transport_04_box_F {
     MACRO_BLUFOR
+    #include "inventory_Heli_BLU.hpp"
   };
   class JNS_Skycrane_Cargo_IND: O_Heli_Transport_04_box_F {
     MACRO_INDEP
+    #include "inventory_Heli_IND.hpp"
   };
 
   class O_Heli_Transport_04_covered_F; // Mi-290 Taru (Transport)
@@ -91,7 +93,7 @@ class CfgVehicles {
     MACRO_INDEP
   };
 
-  class O_Heli_Transport_04_fuel_F; //Mi-290 Taru (Fuel)
+  class O_Heli_Transport_04_fuel_F; // Mi-290 Taru (Fuel)
   class JNS_Skycrane_Fuel_BLU: O_Heli_Transport_04_fuel_F {
     MACRO_BLUFOR
   };
@@ -117,7 +119,7 @@ class CfgVehicles {
 
 
 // Pods
-  class Land_Pod_Heli_Transport_04_ammo_F;
+  class Land_Pod_Heli_Transport_04_ammo_F; // Taru Ammo Pod
   class JNS_Skycrane_Pod_Ammo_BLU: Land_Pod_Heli_Transport_04_ammo_F {
     MACRO_BLUFOR
   };
@@ -125,7 +127,7 @@ class CfgVehicles {
     MACRO_INDEP
   };
 
-  class Land_Pod_Heli_Transport_04_bench_F;
+  class Land_Pod_Heli_Transport_04_bench_F; // Taru Bench Pod
   class JNS_Skycrane_Pod_Bench_BLU: Land_Pod_Heli_Transport_04_bench_F {
     MACRO_BLUFOR
   };
@@ -133,15 +135,17 @@ class CfgVehicles {
     MACRO_INDEP
   };
 
-  class Land_Pod_Heli_Transport_04_box_F;
+  class Land_Pod_Heli_Transport_04_box_F; // Taru Cargo Pod
   class JNS_Skycrane_Pod_Cargo_BLU: Land_Pod_Heli_Transport_04_box_F {
     MACRO_BLUFOR
+    #include "inventory_Pod_BLU.hpp"
   };
   class JNS_Skycrane_Pod_Cargo_IND: Land_Pod_Heli_Transport_04_box_F {
     MACRO_INDEP
+    #include "inventory_Pod_IND.hpp"
   };
 
-  class Land_Pod_Heli_Transport_04_covered_F;
+  class Land_Pod_Heli_Transport_04_covered_F; // Taru Transport Pod
   class JNS_Skycrane_Pod_Transport_BLU: Land_Pod_Heli_Transport_04_covered_F {
     MACRO_BLUFOR
   };
@@ -149,7 +153,7 @@ class CfgVehicles {
     MACRO_INDEP
   };
 
-  class Land_Pod_Heli_Transport_04_fuel_F;
+  class Land_Pod_Heli_Transport_04_fuel_F; // Taru Fuel Pod
   class JNS_Skycrane_Pod_Fuel_BLU: Land_Pod_Heli_Transport_04_fuel_F {
     MACRO_BLUFOR
   };
@@ -157,7 +161,7 @@ class CfgVehicles {
     MACRO_INDEP
   };
 
-  class Land_Pod_Heli_Transport_04_medevac_F;
+  class Land_Pod_Heli_Transport_04_medevac_F; // Taru Medical Pod
   class JNS_Skycrane_Pod_Medical_BLU: Land_Pod_Heli_Transport_04_medevac_F {
     MACRO_BLUFOR
   };
@@ -165,7 +169,7 @@ class CfgVehicles {
     MACRO_INDEP
   };
 
-  class Land_Pod_Heli_Transport_04_repair_F;
+  class Land_Pod_Heli_Transport_04_repair_F; // Taru Repair Pod
   class JNS_Skycrane_Pod_Repair_BLU: Land_Pod_Heli_Transport_04_repair_F {
     MACRO_BLUFOR
   };

@@ -43,5 +43,7 @@ Changelog:
   - Easier updating and texture adding
 - Added: AAF faction variants (#7)
 - Added: Green and Grey Textures to NATO and AAF (#6)
+- Changed: Inventory for NATO and AAF (#13)
 - Changed: Corrected class inheritance (#5)
+- Changed: Author to Bohemia Interactive for Black Textures
 - Fixed: Key conflict (#10)
