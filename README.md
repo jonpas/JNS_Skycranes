@@ -6,7 +6,7 @@ JNS Skycranes - Arma 3 Mod
 
 ---
 
-[![](https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat-square)](https://github.com/jonpas/JNS_Skycranes/releases) [![](https://img.shields.io/badge/License-APL--SA-red.svg?style=flat-square)](https://github.com/jonpas/JNS_Skycranes/blob/master/LICENSE.md) [![](https://img.shields.io/github/issues/jonpas/JNS_Skycranes.svg?style=flat-square)](https://github.com/jonpas/JNS_Skycranes/issues)
+[![](https://img.shields.io/badge/Version-2.0.0-blue.svg?style=flat-square)](https://github.com/jonpas/JNS_Skycranes/releases) [![](https://img.shields.io/badge/License-APL--SA-red.svg?style=flat-square)](https://github.com/jonpas/JNS_Skycranes/blob/master/LICENSE.md) [![](https://img.shields.io/github/issues/jonpas/JNS_Skycranes.svg?style=flat-square)](https://github.com/jonpas/JNS_Skycranes/issues)
 
 A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to different factions.
 
@@ -29,4 +29,4 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to diffe
 
 ## Contributing
 
-Looking for textures to add, please make a pull request or PM (BI Forums, Armaholic) me if you would like them included!  
+If you have texture(s) you would like included, please make a pull request or post an issue on this repository! You may also PM me on BI Forums or Armaholic.
