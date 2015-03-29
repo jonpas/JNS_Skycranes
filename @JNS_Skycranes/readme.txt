@@ -25,7 +25,7 @@ Authors:
 Thanks:
 =======
 - Bohemia Interactive (Arma 3)
-- David Andersen (Being supportive, teaching me basics and all-around help)
+- DaC (Being supportive, teaching me basics and all-around help)
 - NorX_Aengell (Compatibility with "XENO - Taru Pod Mod")
 
 
