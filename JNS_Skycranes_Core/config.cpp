@@ -2,8 +2,8 @@ class CfgPatches {
   class JNS_Skycranes_Core {
     units[] = {};
     weapons[] = {};
-    requiredVersion = 0.1;
-    requiredAddons[] = {};
+    requiredVersion = 1.42;
+    requiredAddons[] = {"a3_air_f_heli_heli_transport_04"};
     version = "2.0.0";
     versionStr = "2.0.0";
     versionAr[] = {2,0,0};
@@ -13,24 +13,21 @@ class CfgPatches {
 };
 
 
-// Scope definitions
-#define private 0
-
 // Sides definitions
 #define WEST 1
 #define RESISTANCE 2
 
 // Macro definitions
 #define MACRO_BLUFOR \
-  scope = private; \
-  faction = BLU_F; \
+  scope = 0; \
+  faction = "BLU_F"; \
   side = WEST; \
   crew = "B_HeliPilot_F"; \
   typicalCargo[] = {"B_Soldier_lite_F"};
 
 #define MACRO_INDEP \
-  scope = private; \
-  faction = IND_F; \
+  scope = 0; \
+  faction = "IND_F"; \
   side = RESISTANCE; \
   crew = "I_HeliPilot_F"; \
   typicalCargo[] = {"I_Soldier_lite_F"};

@@ -21,7 +21,7 @@ class CfgPatches {
     };
     weapons[] = {};
     requiredVersion = 0.1;
-    requiredAddons[] = {JNS_Skycranes_Core};
+    requiredAddons[] = {"JNS_Skycranes_Core"};
     version = "2.0.0";
     versionStr = "2.0.0";
     versionAr[] = {2,0,0};
@@ -31,13 +31,10 @@ class CfgPatches {
 };
 
 
-// Scope definitions
-#define public 2
-
 // Macro definitions
 #define MACRO_CONFIG \
-  scope = public; \
-  vehicleClass = JNS_Skycranes_Black; \
+  scope = 2; \
+  vehicleClass = "JNS_Skycranes_Black"; \
   author = "Bohemia Interactive";
 
 
