@@ -4,9 +4,9 @@ class CfgPatches {
     weapons[] = {};
     requiredVersion = 1.42;
     requiredAddons[] = {"a3_air_f_heli_heli_transport_04"};
-    version = "2.0.0";
-    versionStr = "2.0.0";
-    versionAr[] = {2,0,0};
+    version = "2.0.1";
+    versionStr = "2.0.1";
+    versionAr[] = {2,0,1};
     author[] = {"Jonpas"};
     authorUrl = "https://github.com/jonpas";
   };

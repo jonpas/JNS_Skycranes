@@ -47,3 +47,8 @@ Changelog:
 - Changed: Corrected class inheritance (#5)
 - Changed: Author to Bohemia Interactive for Black Textures
 - Fixed: Key conflict (#10)
+
+# v2.0.1
+- Changed: Base class renamed to have "_Base" suffix
+- Changed: Quoted definitions and requiredAddons
+- Fixed: Updating base class warnings (#14)
