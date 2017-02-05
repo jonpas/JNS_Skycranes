@@ -1,0 +1,10 @@
+Authors:
+========
+- Jonpas (Config)
+- Takelmeifter (Green, Grey Textures)
+
+Thanks:
+=======
+- Bohemia Interactive (Arma 3)
+- DaC (Being supportive, teaching me basics and all-around help)
+- NorX_Aengell (Compatibility with "XENO - Taru Pod Mod")
