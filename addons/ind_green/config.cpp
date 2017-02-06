@@ -4,26 +4,26 @@ class CfgPatches {
     class ADDON {
         units[] = {
             // Helicopters
-            QCLASS(ind_green),
-            QCLASS(ammo_ind_green),
-            QCLASS(bench_ind_green),
-            QCLASS(cargo_ind_green),
-            QCLASS(transport_ind_green),
-            QCLASS(fuel_ind_green),
-            QCLASS(medical_ind_green),
-            QCLASS(repair_ind_green),
+            QCLASS(IND_Green),
+            QCLASS(Ammo_IND_Green),
+            QCLASS(Bench_IND_Green),
+            QCLASS(Cargo_IND_Green),
+            QCLASS(Transport_IND_Green),
+            QCLASS(Fuel_IND_Green),
+            QCLASS(Medical_IND_Green),
+            QCLASS(Repair_IND_Green),
             // Pods
-            QCLASS(pod_ammo_ind_green),
-            QCLASS(pod_bench_ind_green),
-            QCLASS(pod_cargo_ind_green),
-            QCLASS(pod_transport_ind_green),
-            QCLASS(pod_fuel_ind_green),
-            QCLASS(pod_medical_ind_green),
-            QCLASS(pod_repair_ind_green)
+            QCLASS(Pod_Ammo_IND_Green),
+            QCLASS(Pod_Bench_IND_Green),
+            QCLASS(Pod_Cargo_IND_Green),
+            QCLASS(Pod_Transport_IND_Green),
+            QCLASS(Pod_Fuel_IND_Green),
+            QCLASS(Pod_Medical_IND_Green),
+            QCLASS(Pod_Repair_IND_Green)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jns_skycranes_textures_green"};
+        requiredAddons[] = {"JNS_Skycranes_Textures_Green"};
         authors[] = {"Takelmeifter", "Jonpas"};
         url = "https://github.com/jonpas/JNS_Skycranes";
         VERSION_CONFIG;

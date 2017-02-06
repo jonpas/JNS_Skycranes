@@ -4,26 +4,26 @@ class CfgPatches {
     class ADDON {
         units[] = {
             // Helicopters
-            QCLASS(ind_grey),
-            QCLASS(ammo_ind_grey),
-            QCLASS(bench_ind_grey),
-            QCLASS(cargo_ind_grey),
-            QCLASS(transport_ind_grey),
-            QCLASS(fuel_ind_grey),
-            QCLASS(medical_ind_grey),
-            QCLASS(repair_ind_grey),
+            QCLASS(IND_Grey),
+            QCLASS(Ammo_IND_Grey),
+            QCLASS(Bench_IND_Grey),
+            QCLASS(Cargo_IND_Grey),
+            QCLASS(Transport_IND_Grey),
+            QCLASS(Fuel_IND_Grey),
+            QCLASS(Medical_IND_Grey),
+            QCLASS(Repair_IND_Grey),
             // Pods
-            QCLASS(pod_ammo_ind_grey),
-            QCLASS(pod_bench_ind_grey),
-            QCLASS(pod_cargo_ind_grey),
-            QCLASS(pod_transport_ind_grey),
-            QCLASS(pod_fuel_ind_grey),
-            QCLASS(pod_medical_ind_grey),
-            QCLASS(pod_repair_ind_grey)
+            QCLASS(Pod_Ammo_IND_Grey),
+            QCLASS(Pod_Bench_IND_Grey),
+            QCLASS(Pod_Cargo_IND_Grey),
+            QCLASS(Pod_Transport_IND_Grey),
+            QCLASS(Pod_Fuel_IND_Grey),
+            QCLASS(Pod_Medical_IND_Grey),
+            QCLASS(Pod_Repair_IND_Grey)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jns_skycranes_textures_grey"};
+        requiredAddons[] = {"JNS_Skycranes_Textures_Grey"};
         authors[] = {"Takelmeifter", "Jonpas"};
         url = "https://github.com/jonpas/JNS_Skycranes";
         VERSION_CONFIG;

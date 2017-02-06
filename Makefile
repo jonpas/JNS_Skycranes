@@ -1,6 +1,6 @@
-MAJOR = $(shell grep "^\#define[[:space:]]*MAJOR" addons/main/script_version.hpp | egrep -m 1 -o '[[:digit:]]+')
-MINOR = $(shell grep "^\#define[[:space:]]*MINOR" addons/main/script_version.hpp | egrep -m 1 -o '[[:digit:]]+')
-PATCH = $(shell grep "^\#define[[:space:]]*PATCHLVL" addons/main/script_version.hpp | egrep -m 1 -o '[[:digit:]]+')
+MAJOR = $(shell grep "^\#define[[:space:]]*MAJOR" addons/core/script_version.hpp | egrep -m 1 -o '[[:digit:]]+')
+MINOR = $(shell grep "^\#define[[:space:]]*MINOR" addons/core/script_version.hpp | egrep -m 1 -o '[[:digit:]]+')
+PATCH = $(shell grep "^\#define[[:space:]]*PATCHLVL" addons/core/script_version.hpp | egrep -m 1 -o '[[:digit:]]+')
 VERSION = $(MAJOR).$(MINOR).$(PATCH)
 PREFIX = jns_skycranes
 BIN = @jns_skycranes
