@@ -1,7 +1,7 @@
 JNS Skycranes - Arma 3 Mod
 ================
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jonpas/JNS_Skycranes/master/.dev/Images/jns_skycranes.jpg" />
+    <img src="https://github.com/jonpas/JNS_Skycranes/blob/master/extras/assets/images/jns_skycranes.jpg">
 </p>
 
 ---
@@ -16,16 +16,16 @@ A mod for Arma 3 that brings the OPFOR Mi-290 Taru Helicopters and Pods to diffe
 
 ## Features
 
-*   Mi-290 Taru and its variants in different factions (CH-54 Skycrane)
-*   Taru Pods in different factions (Skycrane Pods)
-*   Modular (Textures and Factions all in separate PBOs)
-*   Separate sub-menu in Editor and Zeus to keep it clean
-*   Should have no issues with future Arma 3 updates, as config is inherited from the vanilla assets
-*   Open-source - contribute on GitHub!
+- Mi-290 Taru and its variants in different factions (CH-54 Skycrane)
+- Taru Pods in different factions (Skycrane Pods)
+- Modular (Textures and Factions all in separate PBOs)
+- Separate sub-menu in Editor and Zeus to keep it clean
+- Should have no issues with future Arma 3 updates, as config is inherited from the vanilla assets
+- Open-source - contribute on GitHub!
 
 **Compatibility:**
 
-*   [XENO - Taru Pod Mod](http://forums.bistudio.com/showthread.php?186272-XENO-Taru-Pod-Mod)
+- [XENO - Taru Pod Mod](http://forums.bistudio.com/showthread.php?186272-XENO-Taru-Pod-Mod)
 
 ## Contributing
 
