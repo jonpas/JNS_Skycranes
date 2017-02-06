@@ -6,50 +6,50 @@ PREFIX = jns_skycranes
 BIN = @jns_skycranes
 ZIP = JNS_Skycranes
 
-release/$(BIN)/addons/$(PREFIX)_%.pbo: addons/%
-	@mkdir -p release/$(BIN)/addons
+$(BIN)/addons/$(PREFIX)_%.pbo: addons/%
+	@mkdir -p $(BIN)/addons
 	@echo "  PBO  $@"
 	@armake build ${FLAGS} -f $< $@
 
-release/$(BIN)/optionals/$(PREFIX)_%.pbo: optionals/%
-	@mkdir -p release/$(BIN)/optionals
+$(BIN)/optionals/$(PREFIX)_%.pbo: optionals/%
+	@mkdir -p $(BIN)/optionals
 	@echo "  PBO  $@"
 	@armake build ${FLAGS} -f $< $@
 
 # Shortcut for building single addons (eg. "make <component>.pbo")
 %.pbo:
-	"$(MAKE)" $(MAKEFLAGS) $(patsubst %, release/$(BIN)/addons/$(PREFIX)_%, $@)
+	"$(MAKE)" $(MAKEFLAGS) $(patsubst %, $(BIN)/addons/$(PREFIX)_%, $@)
 
-all: $(patsubst addons/%, release/$(BIN)/addons/$(PREFIX)_%.pbo, $(wildcard addons/*)) \
-		$(patsubst optionals/%, release/$(BIN)/optionals/$(PREFIX)_%.pbo, $(wildcard optionals/*))
+all: $(patsubst addons/%, $(BIN)/addons/$(PREFIX)_%.pbo, $(wildcard addons/*)) \
+		$(patsubst optionals/%, $(BIN)/optionals/$(PREFIX)_%.pbo, $(wildcard optionals/*))
 
 filepatching:
 	"$(MAKE)" $(MAKEFLAGS) FLAGS="-w unquoted-string -p"
 
-release/$(BIN)/keys/%.biprivatekey:
-	@mkdir -p release/$(BIN)/keys
+$(BIN)/keys/%.biprivatekey:
+	@mkdir -p $(BIN)/keys
 	@echo "  KEY  $@"
-	@armake keygen -f $(patsubst release/$(BIN)/keys/%.biprivatekey, release/$(BIN)/keys/%, $@)
+	@armake keygen -f $(patsubst $(BIN)/keys/%.biprivatekey, $(BIN)/keys/%, $@)
 
-release/$(BIN)/addons/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign: release/$(BIN)/addons/$(PREFIX)_%.pbo release/$(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey
+$(BIN)/addons/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign: $(BIN)/addons/$(PREFIX)_%.pbo $(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey
 	@echo "  SIG  $@"
-	@armake sign -f release/$(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey $<
+	@armake sign -f $(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey $<
 
-release/$(BIN)/optionals/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign: release/$(BIN)/optionals/$(PREFIX)_%.pbo release/$(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey
+$(BIN)/optionals/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign: $(BIN)/optionals/$(PREFIX)_%.pbo $(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey
 	@echo "  SIG  $@"
-	@armake sign -f release/$(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey $<
+	@armake sign -f $(BIN)/keys/$(PREFIX)_$(VERSION).biprivatekey $<
 
-signatures: $(patsubst addons/%, release/$(BIN)/addons/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign, $(wildcard addons/*)) \
-		$(patsubst optionals/%, release/$(BIN)/optionals/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign, $(wildcard optionals/*))
+signatures: $(patsubst addons/%, $(BIN)/addons/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign, $(wildcard addons/*)) \
+		$(patsubst optionals/%, $(BIN)/optionals/$(PREFIX)_%.pbo.$(PREFIX)_$(VERSION).bisign, $(wildcard optionals/*))
 
 clean:
-	rm -rf release
+	rm -rf $(BIN)
 
 release:
 	@"$(MAKE)" clean
 	@"$(MAKE)" $(MAKEFLAGS) signatures
 	@echo "  ZIP  $(ZIP)_$(VERSION).zip"
-	@cp LICENSE.md README.md AUTHORS.txt jns_skycranes_logo.paa mod.cpp meta.cpp release/$(BIN)
-	@zip -r release/$(ZIP)_$(VERSION).zip release/$(BIN) &> /dev/null
+	@cp LICENSE.md README.md AUTHORS.txt jns_skycranes_logo.paa mod.cpp meta.cpp $(BIN)
+	@zip -r $(ZIP)_$(VERSION).zip $(BIN) &> /dev/null
 
 .PHONY: release
