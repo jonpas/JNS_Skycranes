@@ -103,15 +103,7 @@ class CfgVehicles {
     };
 
 
-    // Pods
-    class Land_Pod_Heli_Transport_04_ammo_F; // Taru Ammo Pod
-    class CLASS(Pod_Ammo_BLU_Base): Land_Pod_Heli_Transport_04_ammo_F {
-        MACRO_BLUFOR
-    };
-    class CLASS(Pod_Ammo_IND_Base): Land_Pod_Heli_Transport_04_ammo_F {
-        MACRO_INDEP
-    };
-
+    // Pods crewed
     class Pod_Heli_Transport_04_crewed_base_F;
     class Land_Pod_Heli_Transport_04_bench_F: Pod_Heli_Transport_04_crewed_base_F { // Taru Bench Pod
         transportSoldier = 8; // Fix bench not showing in editor
@@ -123,29 +115,11 @@ class CfgVehicles {
         MACRO_INDEP
     };
 
-    class Land_Pod_Heli_Transport_04_box_F; // Taru Cargo Pod
-    class CLASS(Pod_Cargo_BLU_Base): Land_Pod_Heli_Transport_04_box_F {
-        MACRO_BLUFOR
-        #include "inventory_pod_blu.hpp"
-    };
-    class CLASS(Pod_Cargo_IND_Base): Land_Pod_Heli_Transport_04_box_F {
-        MACRO_INDEP
-        #include "inventory_pod_ind.hpp"
-    };
-
     class Land_Pod_Heli_Transport_04_covered_F; // Taru Transport Pod
     class CLASS(Pod_Transport_BLU_Base): Land_Pod_Heli_Transport_04_covered_F {
         MACRO_BLUFOR
     };
     class CLASS(Pod_Transport_IND_Base): Land_Pod_Heli_Transport_04_covered_F {
-        MACRO_INDEP
-    };
-
-    class Land_Pod_Heli_Transport_04_fuel_F; // Taru Fuel Pod
-    class CLASS(Pod_Fuel_BLU_Base): Land_Pod_Heli_Transport_04_fuel_F {
-        MACRO_BLUFOR
-    };
-    class CLASS(Pod_Fuel_IND_Base): Land_Pod_Heli_Transport_04_fuel_F {
         MACRO_INDEP
     };
 
@@ -157,11 +131,25 @@ class CfgVehicles {
         MACRO_INDEP
     };
 
-    class Land_Pod_Heli_Transport_04_repair_F; // Taru Repair Pod
-    class CLASS(Pod_Repair_BLU_Base): Land_Pod_Heli_Transport_04_repair_F {
-        MACRO_BLUFOR
+
+    // Pods empty
+    class Land_Pod_Heli_Transport_04_ammo_F; // Taru Ammo Pod
+    class CLASS(Pod_Ammo_Base): Land_Pod_Heli_Transport_04_ammo_F {
+        scope = 0;
     };
-    class CLASS(Pod_Repair_IND_Base): Land_Pod_Heli_Transport_04_repair_F {
-        MACRO_INDEP
+
+    class Land_Pod_Heli_Transport_04_box_F; // Taru Cargo Pod
+    class CLASS(Pod_Cargo_Base): Land_Pod_Heli_Transport_04_box_F {
+        scope = 0;
+    };
+
+    class Land_Pod_Heli_Transport_04_fuel_F; // Taru Fuel Pod
+    class CLASS(Pod_Fuel_Base): Land_Pod_Heli_Transport_04_fuel_F {
+        scope = 0;
+    };
+
+    class Land_Pod_Heli_Transport_04_repair_F; // Taru Repair Pod
+    class CLASS(Pod_Repair_Base): Land_Pod_Heli_Transport_04_repair_F {
+        scope = 0;
     };
 };

@@ -13,13 +13,9 @@ class CfgPatches {
             QCLASS(Medical_IND_Green),
             QCLASS(Repair_IND_Green),
             // Pods
-            QCLASS(Pod_Ammo_IND_Green),
             QCLASS(Pod_Bench_IND_Green),
-            QCLASS(Pod_Cargo_IND_Green),
             QCLASS(Pod_Transport_IND_Green),
-            QCLASS(Pod_Fuel_IND_Green),
-            QCLASS(Pod_Medical_IND_Green),
-            QCLASS(Pod_Repair_IND_Green)
+            QCLASS(Pod_Medical_IND_Green)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
