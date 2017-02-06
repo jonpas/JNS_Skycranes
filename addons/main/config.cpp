@@ -5,9 +5,14 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jns_skycranes_main"};
-        authors[] = {"Takelmeifter", "Jonpas"};
+        requiredAddons[] = {"a3_air_f_heli_heli_transport_04"};
+        authors[] = {"Jonpas"};
         url = "https://github.com/jonpas/JNS_Skycranes";
         VERSION_CONFIG;
     };
 };
+
+#include "CfgVehicleClasses.hpp"
+#include "CfgVehicles.hpp"
+
+
