@@ -1,218 +1,31 @@
 class CfgPatches {
-  class JNS_Skycranes_IND_Green {
-    units[] = {
-      // Helicopters
-      "JNS_Skycrane_IND_Green",
-      "JNS_Skycrane_Ammo_IND_Green",
-      "JNS_Skycrane_Bench_IND_Green",
-      "JNS_Skycrane_Cargo_IND_Green",
-      "JNS_Skycrane_Transport_IND_Green",
-      "JNS_Skycrane_Fuel_IND_Green",
-      "JNS_Skycrane_Medical_IND_Green",
-      "JNS_Skycrane_Repair_IND_Green",
-      // Pods
-      "JNS_Skycrane_Pod_Ammo_IND_Green",
-      "JNS_Skycrane_Pod_Bench_IND_Green",
-      "JNS_Skycrane_Pod_Cargo_IND_Green",
-      "JNS_Skycrane_Pod_Transport_IND_Green",
-      "JNS_Skycrane_Pod_Fuel_IND_Green",
-      "JNS_Skycrane_Pod_Medical_IND_Green",
-      "JNS_Skycrane_Pod_Repair_IND_Green"
+    class ADDON {
+        units[] = {
+            // Helicopters
+            QCLASS(ind_green),
+            QCLASS(ammo_ind_green),
+            QCLASS(bench_ind_green),
+            QCLASS(cargo_ind_green),
+            QCLASS(transport_ind_green),
+            QCLASS(fuel_ind_green),
+            QCLASS(medical_ind_green),
+            QCLASS(repair_ind_green),
+            // Pods
+            QCLASS(pod_ammo_ind_green),
+            QCLASS(pod_bench_ind_green),
+            QCLASS(pod_cargo_ind_green),
+            QCLASS(pod_transport_ind_green),
+            QCLASS(pod_fuel_ind_green),
+            QCLASS(pod_medical_ind_green),
+            QCLASS(pod_repair_ind_green)
+        };
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {"jns_skycranes_textures_green"};
+        authors[] = {"Takelmeifter", "Jonpas"};
+        url = "https://github.com/jonpas/JNS_Skycranes";
+        VERSION_CONFIG;
     };
-    weapons[] = {};
-    requiredVersion = 0.1;
-    requiredAddons[] = {"JNS_Skycranes_Textures_Green"};
-    version = "2.0.1";
-    versionStr = "2.0.1";
-    versionAr[] = {2,0,1};
-    author[] = {"Takelmeifter", "Jonpas"};
-    authorUrl = "https://github.com/jonpas";
-  };
 };
 
-
-// Macro definitions
-#define MACRO_CONFIG \
-  scope = 2; \
-  vehicleClass = "JNS_Skycranes_Green"; \
-  author = "Takelmeifter";
-
-
-class CfgVehicles {
-// Helicopters
-  class JNS_Skycrane_IND_Base;
-  class JNS_Skycrane_IND_Green: JNS_Skycrane_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Ammo_IND_Base;
-  class JNS_Skycrane_Ammo_IND_Green: JNS_Skycrane_Ammo_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane (Ammo) Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3", "Camo_4"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa",
-    };
-  };
-
-  class JNS_Skycrane_Bench_IND_Base;
-  class JNS_Skycrane_Bench_IND_Green: JNS_Skycrane_Bench_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane (Bench) Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_bench_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Cargo_IND_Base;
-  class JNS_Skycrane_Cargo_IND_Green: JNS_Skycrane_Cargo_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane (Cargo) Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3", "Camo_4"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Transport_IND_Base;
-  class JNS_Skycrane_Transport_IND_Green: JNS_Skycrane_Transport_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane (Transport) Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3", "Camo_4"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Fuel_IND_Base;
-  class JNS_Skycrane_Fuel_IND_Green: JNS_Skycrane_Fuel_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane (Fuel) Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_fuel_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Medical_IND_Base;
-  class JNS_Skycrane_Medical_IND_Green: JNS_Skycrane_Medical_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane (Medical) Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3", "Camo_4"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Repair_IND_Base;
-  class JNS_Skycrane_Repair_IND_Green: JNS_Skycrane_Repair_IND_Base {
-    MACRO_CONFIG
-    displayName = "CH-54 Skycrane (Repair) Green";
-    hiddenSelections[] = {"Camo_1", "Camo_2", "Camo_3", "Camo_4"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\base_01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\base_02_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-// Pods
-  class JNS_Skycrane_Pod_Ammo_IND_Base;
-  class JNS_Skycrane_Pod_Ammo_IND_Green: JNS_Skycrane_Pod_Ammo_IND_Base {
-    MACRO_CONFIG
-    displayName = "Skycrane Ammo Pod (Green)";
-    hiddenSelections[] = {"Camo_1", "Camo_2"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Pod_Bench_IND_Base;
-  class JNS_Skycrane_Pod_Bench_IND_Green: JNS_Skycrane_Pod_Bench_IND_Base {
-    MACRO_CONFIG
-    displayName = "Skycrane Bench Pod (Green)";
-    hiddenSelections[] = {"Camo_1"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\pod_bench_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Pod_Cargo_IND_Base;
-  class JNS_Skycrane_Pod_Cargo_IND_Green: JNS_Skycrane_Pod_Cargo_IND_Base {
-    MACRO_CONFIG
-    displayName = "Skycrane Cargo Pod (Green)";
-    hiddenSelections[] = {"Camo_1", "Camo_2"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Pod_Transport_IND_Base;
-  class JNS_Skycrane_Pod_Transport_IND_Green: JNS_Skycrane_Pod_Transport_IND_Base {
-    MACRO_CONFIG
-    displayName = "Skycrane Transport Pod (Green)";
-    hiddenSelections[] = {"Camo_1", "Camo_2"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Pod_Fuel_IND_Base;
-  class JNS_Skycrane_Pod_Fuel_IND_Green: JNS_Skycrane_Pod_Fuel_IND_Base {
-    MACRO_CONFIG
-    displayName = "Skycrane Fuel Pod (Green)";
-    hiddenSelections[] = {"Camo_1"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\pod_fuel_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Pod_Medical_IND_Base;
-  class JNS_Skycrane_Pod_Medical_IND_Green: JNS_Skycrane_Pod_Medical_IND_Base {
-    MACRO_CONFIG
-    displayName = "Skycrane Medical Pod (Green)";
-    hiddenSelections[] = {"Camo_1", "Camo_2"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-
-  class JNS_Skycrane_Pod_Repair_IND_Base;
-  class JNS_Skycrane_Pod_Repair_IND_Green: JNS_Skycrane_Pod_Repair_IND_Base {
-    MACRO_CONFIG
-    displayName = "Skycrane Repair Pod (Green)";
-    hiddenSelections[] = {"Camo_1", "Camo_2"};
-    hiddenSelectionsTextures[] = {
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext01_co.paa",
-      "\JNS_Skycranes_Textures_Green\textures\pod_ext02_co.paa"
-    };
-  };
-};
+#include "CfgVehicles.hpp"
