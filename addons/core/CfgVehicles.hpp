@@ -112,7 +112,10 @@ class CfgVehicles {
         MACRO_INDEP
     };
 
-    class Land_Pod_Heli_Transport_04_bench_F; // Taru Bench Pod
+    class Pod_Heli_Transport_04_crewed_base_F;
+    class Land_Pod_Heli_Transport_04_bench_F: Pod_Heli_Transport_04_crewed_base_F { // Taru Bench Pod
+        transportSoldier = 8; // Fix bench not showing in editor
+    };
     class CLASS(Pod_Bench_BLU_Base): Land_Pod_Heli_Transport_04_bench_F {
         MACRO_BLUFOR
     };
