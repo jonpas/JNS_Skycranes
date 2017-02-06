@@ -23,66 +23,82 @@ class CfgVehicles {
     class O_Heli_Transport_04_F; // Mi-290 Taru
     class CLASS(BLU_Base): O_Heli_Transport_04_F {
         MACRO_BLUFOR
+        textureList[] = {};
     };
     class CLASS(IND_Base): O_Heli_Transport_04_F {
+        textureList[] = {};
         MACRO_INDEP
     };
 
     class O_Heli_Transport_04_ammo_F; // Mi-290 Taru (Ammo)
     class CLASS(Ammo_BLU_Base): O_Heli_Transport_04_ammo_F {
+        textureList[] = {};
         MACRO_BLUFOR
     };
     class CLASS(Ammo_IND_Base): O_Heli_Transport_04_ammo_F {
+        textureList[] = {};
         MACRO_INDEP
     };
 
     class O_Heli_Transport_04_bench_F; // Mi-290 Taru (Bench)
     class CLASS(Bench_BLU_Base): O_Heli_Transport_04_bench_F {
+        textureList[] = {};
         MACRO_BLUFOR
     };
     class CLASS(Bench_IND_Base): O_Heli_Transport_04_bench_F {
+        textureList[] = {};
         MACRO_INDEP
     };
 
     class O_Heli_Transport_04_box_F; // Mi-290 Taru (Cargo)
     class CLASS(Cargo_BLU_Base): O_Heli_Transport_04_box_F {
+        textureList[] = {};
         MACRO_BLUFOR
         #include "inventory_heli_blu.hpp"
     };
     class CLASS(Cargo_IND_Base): O_Heli_Transport_04_box_F {
+        textureList[] = {};
         MACRO_INDEP
         #include "inventory_heli_ind.hpp"
     };
 
     class O_Heli_Transport_04_covered_F; // Mi-290 Taru (Transport)
     class CLASS(Transport_BLU_Base): O_Heli_Transport_04_covered_F {
+        textureList[] = {};
         MACRO_BLUFOR
     };
     class CLASS(Transport_IND_Base): O_Heli_Transport_04_covered_F {
+        textureList[] = {};
         MACRO_INDEP
     };
 
     class O_Heli_Transport_04_fuel_F; // Mi-290 Taru (Fuel)
     class CLASS(Fuel_BLU_Base): O_Heli_Transport_04_fuel_F {
+        textureList[] = {};
         MACRO_BLUFOR
     };
     class CLASS(Fuel_IND_Base): O_Heli_Transport_04_fuel_F {
+        textureList[] = {};
         MACRO_INDEP
     };
 
     class O_Heli_Transport_04_medevac_F; // Mi-290 Taru (Medical)
     class CLASS(Medical_BLU_Base): O_Heli_Transport_04_medevac_F {
+        textureList[] = {};
         MACRO_BLUFOR
     };
     class CLASS(Medical_IND_Base): O_Heli_Transport_04_medevac_F {
+        textureList[] = {};
         MACRO_INDEP
     };
 
     class O_Heli_Transport_04_repair_F; // Mi-290 Taru (Repair)
     class CLASS(Repair_BLU_Base): O_Heli_Transport_04_repair_F {
+        textureList[] = {};
         MACRO_BLUFOR
     };
     class CLASS(Repair_IND_Base): O_Heli_Transport_04_repair_F {
+        textureList[] = {};
         MACRO_INDEP
     };
 
