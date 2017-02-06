@@ -1,3 +1,4 @@
-#define COMPONENT textures_grey
-#include "\x\jns_skycranes\addons\main\script_mod.hpp"
-#include "\x\jns_skycranes\addons\main\script_macros.hpp"
+#define COMPONENT Textures_Grey
+#include "\x\JNS_Skycranes\addons\Core\script_mod.hpp"
+#include "\x\JNS_Skycranes\addons\Core\script_macros.hpp"
+

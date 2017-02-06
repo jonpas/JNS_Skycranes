@@ -5,7 +5,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jns_skycranes_main"};
+        requiredAddons[] = {"JNS_Skycranes_Core"};
         authors[] = {"Takelmeifter", "Jonpas"};
         url = "https://github.com/jonpas/JNS_Skycranes";
         VERSION_CONFIG;

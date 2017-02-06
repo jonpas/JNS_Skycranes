@@ -4,26 +4,26 @@ class CfgPatches {
     class ADDON {
         units[] = {
             // Helicopters
-            QCLASS(ind_black),
-            QCLASS(ammo_ind_black),
-            QCLASS(bench_ind_black),
-            QCLASS(cargo_ind_black),
-            QCLASS(transport_ind_black),
-            QCLASS(fuel_ind_black),
-            QCLASS(medical_ind_black),
-            QCLASS(repair_ind_black),
+            QCLASS(IND_Black),
+            QCLASS(Ammo_IND_Black),
+            QCLASS(Bench_IND_Black),
+            QCLASS(Cargo_IND_Black),
+            QCLASS(Transport_IND_Black),
+            QCLASS(Fuel_IND_Black),
+            QCLASS(Medical_IND_Black),
+            QCLASS(Repair_IND_Black),
             // Pods
-            QCLASS(pod_ammo_ind_black),
-            QCLASS(pod_bench_ind_black),
-            QCLASS(pod_cargo_ind_black),
-            QCLASS(pod_transport_ind_black),
-            QCLASS(pod_fuel_ind_black),
-            QCLASS(pod_medical_ind_black),
-            QCLASS(pod_repair_ind_black)
+            QCLASS(Pod_Ammo_IND_Black),
+            QCLASS(Pod_Bench_IND_Black),
+            QCLASS(Pod_Cargo_IND_Black),
+            QCLASS(Pod_Transport_IND_Black),
+            QCLASS(Pod_Fuel_IND_Black),
+            QCLASS(Pod_Medical_IND_Black),
+            QCLASS(Pod_Repair_IND_Black)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jns_skycranes_main"};
+        requiredAddons[] = {"JNS_Skycranes_Core"};
         authors[] = {"Jonpas"};
         url = "https://github.com/jonpas/JNS_Skycranes";
         VERSION_CONFIG;
